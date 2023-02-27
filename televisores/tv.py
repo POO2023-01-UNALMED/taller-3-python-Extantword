@@ -64,6 +64,10 @@ class TV:
     @classmethod
     def getNumTV(cls):
             return cls._numTV
+
+    @classmethod 
+    def setNumTV(cls):
+        return cls._numTV
     
     def getControl(self):
         return self._control
