@@ -27,5 +27,9 @@ class Control:
 
     def setVolumen(self, volumen):
         self._tv.setVolumen(volumen)    
+
+    def getTv(self):
+        return self._tv
+
      
     
